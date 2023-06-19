@@ -1,24 +1,26 @@
-html{
+html {
     font-size: 100%;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
-    width: 1300px;
-    font-size: 16px;
-    background-color: #fff;
     margin: 0;
     padding: 0;
-    height: auto;
+}
+
+.section {
+    width: 1500px;
 }
 
 .header {
     width: 100%;
-    height: auto;
-    background-color: #fff;
     padding: 0 2%;
     display: flex;
     justify-content: space-between;
@@ -27,60 +29,47 @@ body {
 
 .logo {
     color: #00008B;
-    font-weight: bolder;
 }
 
 .nav {
     display: flex;
     list-style: none;
-    font-weight: bold;
 }
 
 .nav-item {
+    font-weight: bold;
+    color: #00008B;
     margin-left: 40px;
 }
 
-a {
+.a {
     text-decoration: none;
-    color: #00008B;
 }
 
-.inner {
-    background-color: #fff;
-    height: 740px;
+.fv {
+    height: 700px;
     position: relative;
 }
 
-h2 {
-    background-color: #fff;
-}
-
-
-img {
-    margin: 0 0 0 auto;
+.fv__img {
     display: block;
-    width: 50%;
-    height: auto;
     position: absolute;
-    top: 30px;
+    top: 10%;
     left: 50%;
+    width: 50%;
     z-index: 10;
 }
 
-h2 {
-    font-weight: lighter;
-    font-size: 70px;
-    height: auto;
+.fv__title {
     position: absolute;
-    top: 330px;
+    top: 55%;
+    font-size: 50px;
 }
 
 .fv__bg-blue {
     width: 70%;
-    height: 200px;
+    height: 25%;
     position: absolute;
-    top: 470px;
-
+    top: 70%;
     background-color: #00008B;
-    z-index: 1;
 }
